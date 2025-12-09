@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox, ttk
 from tkinter.scrolledtext import ScrolledText
 import fitz  # PyMuPDF
 
-
+print ("Hello World - trying out this git and Github pushes and stuff. Let's see if this works")
 def extract_content_and_images(pdf_path):
     doc = fitz.open(pdf_path)
     media_path = tempfile.mkdtemp()
